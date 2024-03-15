@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-4)(&3smfk7r802m=g*yws_8+#wa#7+mwn*ed^!8rq7vyw3bqlh
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'mclassifier.onrender.com'
+]
 
 APPEND_SLASH = False
 # Application definition
